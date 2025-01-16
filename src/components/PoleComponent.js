@@ -7,13 +7,14 @@ function PoleComponent({children, styles}){
     const firstChildren = React.cloneElement(children[0], {
         style: {
             flexBasis: '250px',
+            flexGrow: '1',
             padding: '2rem 1rem',
             backgroundColor: '#F0F0F0',
         }
     })
     const secondChildren = React.cloneElement(children[1], {
         style: {
-            flexBasis: '50%',
+            flexGrow: '8',
             backgroundColor: '#F0F0F0',
             padding: '0.7rem 0rem',
         }

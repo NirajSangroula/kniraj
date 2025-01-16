@@ -1,0 +1,34 @@
+.myselfWrapper{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    aside{
+        flex-grow: 0;
+        margin-left: 2rem;
+        img{
+            height: 250px;
+        }
+    }
+    section{
+        flex-basis: 70%;
+        flex-grow: 1;
+    }
+}
+.simpleHeader{
+    margin-top: 3rem;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 24px;
+}
+.skillsWrapper{
+    margin-top: 1rem;
+}
+.links {
+    li{
+        a{
+            color: #221a4b
+        }
+    }
+}

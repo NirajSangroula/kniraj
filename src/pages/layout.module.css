@@ -1,0 +1,40 @@
+hr{
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+}
+.nameholder{
+    flex-grow: 25;
+    padding: 0.5rem;
+    span{
+        padding: 1rem 3rem;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+.iconholder{
+    flex-grow: 1;
+    flex-basis: 90px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem
+
+
+}
+.iconholder span{
+    flex-shrink: 0;
+}
+
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact; /* For Webkit browsers (Chrome, Safari) */
+        print-color-adjust: exact;         /* Standard property */
+        color-adjust: exact;               /* For older versions of Firefox */
+    }
+
+}

@@ -109,7 +109,7 @@ const Home = () => {
             </div>
             <div className={styles.simpleHeader}>Projects</div>
             <hr />
-            <div id="projectsWrapper" style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'space-around', flexWrap: 'wrap', padding: '0 10% 3rem 10%', backgroundColor: '#221A4B' }}>
+            <div id="projectsWrapper" style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'space-around', flexWrap: 'wrap', padding: "5% 0%", backgroundColor: '#221A4B' }}>
                 <NavigatorComponent data={data}>
                     <ProjectComponent styles={{ flexBasis: '40%' }}>
                         <i style={{ fontSize: '2rem' }} className="fa-solid fa-laptop-code"></i>
@@ -175,7 +175,7 @@ const Home = () => {
             </div>
             <div className={styles.simpleHeader}>Work Experience</div>
             <hr />
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', padding: '20px 0 0 0', justifyContent: 'center', alignItems: 'center' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', padding: '20px', justifyContent: 'center', alignItems: 'center' }}>
                 <Work workExperience={workExperience} />
             </div>
             <div className={styles.simpleHeader}>Education</div>

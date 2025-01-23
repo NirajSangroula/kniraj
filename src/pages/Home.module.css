@@ -32,3 +32,15 @@
         }
     }
 }
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 800px) {
+    .removePadding {
+        padding: 0 !important;
+    }
+    .removeMaxWidth {
+        max-width: 100% !important;
+    }
+}

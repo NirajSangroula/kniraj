@@ -19,7 +19,7 @@ function TextComponent({children, colorIndex, styles}){
     return (
         <>
             <div style={divStyle}>
-                <span>{children}</span></div>
+                <span style={{margin: '1.5rem auto'}}>{children}</span></div>
         </>
     )
 }

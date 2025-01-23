@@ -184,12 +184,12 @@ const Home = () => {
                 <Education education={education} />
             </div>
 
-            <div className={styles.simpleHeader}>Feedback and other links</div>
+            <div className={styles.simpleHeader}>Resources and Feedback</div>
             <hr />
 
-            <div style={{ display: 'flex', flexDirection: 'row', gap: '20px', padding: '20px' }}>
-                <div style={{ flex: 1 }}>
-                    <form style={{ backgroundColor: '#221A4B', color: 'white', padding: '20px', borderRadius: '8px' }}>
+            <div className={styles.flexContainer} style={{ display: 'flex', flexDirection: 'column-reverse', gap: '20px', padding: '20px' }}>
+                <div className={styles.removePadding} style={{ flex: 1, backgroundColor: '#221A4B', padding: '0 30%'}}>
+                    <form style={{ color: 'white', padding: '20px', borderRadius: '8px' }}>
                         <h2>Feedback</h2>
                         <div style={{ marginBottom: '15px' }}>
                             <label htmlFor="name" style={{ display: 'block', marginBottom: '5px' }}>Name</label>
@@ -206,8 +206,8 @@ const Home = () => {
                         <button type="submit" style={{ backgroundColor: 'white', color: '#221A4B', padding: '10px 20px', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Submit</button>
                     </form>
                 </div>
-                <div style={{ backgroundColor: '#F0F0F0', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', padding: '30px', borderRadius: '12px', flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'stretch' }}>
-                    <div style={{ color: 'black', height: '90%', width: '100%', maxWidth: '400px' }}>
+                <div style={{ backgroundColor: '#F0F0F0', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', padding: '30px', borderRadius: '12px', flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <div className={styles.removeMaxWidth} style={{ color: 'black', height: '90%', width: '100%', maxWidth: '40%' }}>
                         <h2 style={{ fontSize: '24px', marginBottom: '20px', color: '#221A4B' }}>Links</h2>
                         <ul className={styles.links} style={{ listStyleType: 'none', padding: 0 }}>
                             <li style={{ marginBottom: '15px' }}><a href="#" style={{ textDecoration: 'none', fontWeight: 'bold', display: 'block', padding: '10px', borderRadius: '8px', transition: 'background-color 0.3s' }} onMouseOver={(e) => e.target.style.backgroundColor = '#E0E0E0'} onMouseOut={(e) => e.target.style.backgroundColor = 'transparent'}>Resume</a></li>

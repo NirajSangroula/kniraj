@@ -132,6 +132,7 @@ const Home = () => {
             </div>
             <div className={styles.simpleHeader}>Projects</div>
             <hr />
+
             <div id="projectsWrapper" style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'space-around', flexWrap: 'wrap', padding: "5% 0%", backgroundColor: '#221A4B' }}>
                 <NavigatorComponent>
                     <ProjectComponent styles={{ flexBasis: '40%' }}>
@@ -142,6 +143,7 @@ const Home = () => {
                         <div>A scalable microservices-based platform built with Spring Boot to facilitate the exchange of goods and services. Supports secure delivery, flexible recurring payments, and credit-based transactions for seamless bartering and trading.</div>
                         <div>Spring Boot, Spring Cloud, Eureka, API Gateway, MongoDB, PostgreSQL</div>
                     </ProjectComponent>
+
                     <ProjectComponent styles={{ flexBasis: '40%' }}>
                         <div style={{ display: 'flex', gap: '1rem' }}>
                             <a href="https://github.com/pm-niraj/kgeet.git" target="_blank" rel="noopener noreferrer">
@@ -154,23 +156,6 @@ const Home = () => {
                         <div>Kgeet Music Player</div>
                         <div>An online music player app that finds music via YouTube and automatically saves it as mp3 for offline playback across any device.</div>
                         <div>React.js (Frontend), Spring Boot REST API (Backend), YouTube API, FFmpeg</div>
-                    </ProjectComponent>
-                    <ProjectComponent styles={{ flexBasis: '40%' }}>
-                        <a href="https://github.com/NirajSangroula/RubikCubeSimulator.git" target="_blank" rel="noopener noreferrer">
-                            <i style={{ fontSize: '2rem' }} className="fa-solid fa-cube"></i>
-                        </a>
-                        <div>Rubik’s Cube</div>
-                        <div>Rubik’s Cube simulation and solver with a full object-oriented design. Implements SOLID principles to model and solve the cube using exhaustive search algorithms.</div>
-                        <div>Java, Swing, OOP</div>
-                    </ProjectComponent>
-
-                    <ProjectComponent styles={{ flexBasis: '40%' }}>
-                        <a href="https://github.com/NirajSangroula/DataStructures.git" target="_blank" rel="noopener noreferrer">
-                            <i style={{ fontSize: '2rem' }} className="fa-solid fa-diagram-project"></i>
-                        </a>
-                        <div>Data Structures Consolidation</div>
-                        <div>Advanced library of data structures and algorithms including traversal, searching, and sorting, with JUnit tests and developer-friendly documentation.</div>
-                        <div>Java, JUnit, Git, Eclipse</div>
                     </ProjectComponent>
 
                     <ProjectComponent styles={{ flexBasis: '40%' }}>
@@ -191,6 +176,23 @@ const Home = () => {
                         <div>React.js, CSS Modules, Vite</div>
                     </ProjectComponent>
 
+                    <ProjectComponent styles={{ flexBasis: '40%' }}>
+                        <a href="https://github.com/NirajSangroula/RubikCubeSimulator.git" target="_blank" rel="noopener noreferrer">
+                            <i style={{ fontSize: '2rem' }} className="fa-solid fa-cube"></i>
+                        </a>
+                        <div>Rubik’s Cube</div>
+                        <div>Rubik’s Cube simulation and solver with a full object-oriented design. Implements SOLID principles to model and solve the cube using exhaustive search algorithms.</div>
+                        <div>Java, Swing, OOP</div>
+                    </ProjectComponent>
+
+                    <ProjectComponent styles={{ flexBasis: '40%' }}>
+                        <a href="https://github.com/NirajSangroula/DataStructures.git" target="_blank" rel="noopener noreferrer">
+                            <i style={{ fontSize: '2rem' }} className="fa-solid fa-diagram-project"></i>
+                        </a>
+                        <div>Data Structures Consolidation</div>
+                        <div>Advanced library of data structures and algorithms including traversal, searching, and sorting, with JUnit tests and developer-friendly documentation.</div>
+                        <div>Java, JUnit, Git, Eclipse</div>
+                    </ProjectComponent>
                 </NavigatorComponent>
             </div>
 

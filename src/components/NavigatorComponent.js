@@ -1,7 +1,7 @@
 import React, { use, useEffect } from "react"
 import { rangeFromPageNumber } from "../helpers/pages"
 
-function NavigatorComponent({children, data}) {
+function NavigatorComponent({children}) {
     const [currentPage, setCurrentPage] = React.useState(1)
     let elements = React.Children.map(children, (child, index) => {
         if(React.isValidElement(child)){

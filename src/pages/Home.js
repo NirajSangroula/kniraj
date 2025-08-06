@@ -49,6 +49,21 @@ const workExperience = [
           "Utilized Swagger/OpenAPI for REST API documentation and Postman collections for API testing, validation, and automation.",
           "Participated in Agile Scrum methodology with regular sprint planning, daily standups, sprint reviews, and retrospectives, ensuring iterative development and timely deliveries."
         ]
+    },
+    {
+      title: "Java Teaching Assistant",
+      company: "Algoma University",
+      location: "Brampton, Canada",
+      duration: "JAN 2023 - AUG 2024",
+      responsibilities: [
+        "Mentored undergraduate students in core and advanced Java programming, including object-oriented design, recursion, and algorithm optimization.",
+        "Provided hands-on guidance with data structures such as arrays, linked lists, stacks, queues, binary trees, heaps, and graphs, emphasizing traversal strategies and time-space complexity.",
+        "Led lab sessions focused on solving real-world problems using Java, covering topics like Dijkstra’s algorithm, BFS/DFS, dynamic programming, and hash-based structures.",
+        "Assisted students with integrating Java-based RESTful backends with simple React frontends, teaching concepts such as HTTP methods, JSON serialization, and client-server communication.",
+        "Facilitated learning through practical debugging, code reviews, and one-on-one support, promoting clean coding practices and modular software design.",
+        "Reviewed and graded assignments, lab submissions, and exams, providing detailed feedback to reinforce concepts and improve implementation skills.",
+        "Created supplementary materials, problem sets, and coding challenges to enhance student understanding of algorithm design and Java-based application development."
+      ]
     }
 ];
 const education = [
